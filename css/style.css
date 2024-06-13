@@ -23,7 +23,7 @@ body {
   font-size: 15px;
   background-color: var(--Very-Light-Gray);
   min-height: 100vh;
-  margin: 75px;
+  margin: 80px;
 }
 
 .container {
@@ -38,7 +38,7 @@ body {
   max-width: 500px;
 }
 
-.head h2:first-child {
+.head h1:first-child {
   font-weight: 200;
   font-size: 24px;
   color: var(--Grayish-Blue);
@@ -57,7 +57,7 @@ body {
 }
 
 @media (min-width:768px) {
-  .head h2:first-child {
+  .head h1:first-child {
     font-size: 30px;
   }
 
@@ -90,17 +90,18 @@ body {
 }
 
 @media (min-width:1025px) {
-  .head h2:first-child {
+  .head h1:first-child {
     font-size: 36px;
+    margin-bottom: -5px;
   }
 
   .head h2:nth-child(2) {
-    font-size: 36px;
+    font-size: 35px;
   }
 
   .cards div {
-    width: 380px;
-    height: 260px;
+    width: 360px;
+    height: 250px;
   }
 
   .cards {
