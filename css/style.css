@@ -23,7 +23,7 @@ body {
   font-size: 15px;
   background-color: var(--Very-Light-Gray);
   min-height: 100vh;
-  margin: 80px;
+  margin: 75px;
 }
 
 .container {
@@ -38,30 +38,30 @@ body {
   max-width: 500px;
 }
 
-.head h1:first-child {
+.head h2:first-child {
   font-weight: 200;
   font-size: 24px;
   color: var(--Grayish-Blue);
 }
 
-.head h1:nth-child(2) {
-  font-weight: 620;
+.head h2:nth-child(2) {
+  font-weight: 600;
   font-size: 24px;
   color: var(--Very-Dark-Blue);
 }
 
 .head p {
-  margin-top: 20px;
+  margin-top: 15px;
   color: var(--Grayish-Blue);
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 @media (min-width:768px) {
-  .head h1:first-child {
+  .head h2:first-child {
     font-size: 30px;
   }
 
-  .head h1:nth-child(2) {
+  .head h2:nth-child(2) {
     font-size: 30px;
   }
 
@@ -75,7 +75,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 25px;
 }
 
 .cards div {
@@ -90,11 +90,11 @@ body {
 }
 
 @media (min-width:1025px) {
-  .head h1:first-child {
+  .head h2:first-child {
     font-size: 36px;
   }
 
-  .head h1:nth-child(2) {
+  .head h2:nth-child(2) {
     font-size: 36px;
   }
 
@@ -107,7 +107,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 20px;
+    gap: 30px;
   }
 
   .cards .super {
