@@ -153,6 +153,7 @@ body {
 }
 
 .cards div h3 {
+  font-weight: 600;
   margin-bottom: 20px;
   color: var(--Very-Dark-Blue);
 }
